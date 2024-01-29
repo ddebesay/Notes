@@ -1,0 +1,17 @@
+WebDriver:
+ 
+WebDriver driver = new ChromeDriver();    -->	(start driver)
+driver.manage().window().maximize();      -->	(Maximize Window)
+driver.get("URL"); 						  -->	(.get() -- browse URL)	
+driver.getTitle();						  -->	(driver gets title) 	
+
+POM: (Paste inside per Selenium Dev) 
+<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>4.16.1</version>
+</dependency>
+
+Wait Stratigy: 
+implicit wait / explecit wait -  - driver.mange().timeouts().implicitWailt(Duration.ofMillis(300));   --> 		(this will wait for 300 sec until it trows exceptions) 
+Thread.sleep(); 

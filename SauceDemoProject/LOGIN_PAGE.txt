@@ -1,0 +1,33 @@
+public class LoginPage {
+	
+	@FindBy(xpath = "//input[@id='user-name']")
+	static WebElement userNameField; 
+	@FindBy(xpath = "//input[@id='password']")
+	static WebElement passwordField;
+	@FindBy(xpath = "//input[@id='login-button']")
+	static WebElement loginButton;
+	
+	WebDriver driver;
+
+	public LoginPage(WebDriver driver) {
+		this.driver = driver;
+		PageFactory.initElements(driver, this);
+	}
+	
+	public void userNameField (String EnterUsername) {
+		userNameField.sendKeys(EnterUsername);
+	}
+	public void passwordField (String EnterPassword) {
+		passwordField.sendKeys(EnterPassword);
+	}
+	public void loginButton () {
+		loginButton.click();
+	}
+	public void successfulLoginPage (String validUsername, String ValidPassword) {
+		LoginPage lp = new LoginPage(driver);
+		lp.userNameField(validUsername);
+		lp.passwordField(ValidPassword);
+		lp.loginButton();
+	}
+	
+	}

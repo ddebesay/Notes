@@ -1,0 +1,5 @@
+Errors::
+
+
+ArrayIndexOutOfBoundsException  - this Error will apear if you enter value out of Array bracket 
+Arthmwtix Exception (Exception_Handling): if you divide by Zero 

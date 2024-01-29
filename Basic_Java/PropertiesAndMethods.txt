@@ -1,0 +1,53 @@
+if you are dealing with something such as entering data or clicking 
+then you will need to create objects.
+
+	 Username ----> (dealing objects / need to create class )
+	 password ----> (dealing objects / need to create class )
+	 LOGIN -------> (dealing objects / need to create class )
+
+Class have 2 things:
+	Properties: deals with ;  Username, password, LOGIN, width, size, Image, logo, color  
+	Methods: ACTION ; putting Username, putting password, Clicking Login, Checking IMAGE or color ,   
+
+class : blueprint of an object 
+object: 
+
+
+
+HW: (TASK) 
+
+Create a class for teacher 
+(string)	name 
+(INT)		salary 
+(STRING)	email
+(boolean)	course is  designed well 
+objects / class
+
+create object in the main method 
+Employee can hire an teacher 
+
+we need object of login page of FB
+hence we need a class for the templete 
+
+
+I need to reiview todays class + access modifier  
+
+
+Access modifiers: 
+
+Public - will show everywhere, differnt packages 
+private - will not show anywhere 
+defult - can only show with in class
+
+	// properties  { has something }
+		- it has email / phone number input 
+		- it has password input field 
+		- 
+
+	//method
+		- dologin () {} 
+
+
+
+
+{ rabbi.shakir@agiletech.com }
